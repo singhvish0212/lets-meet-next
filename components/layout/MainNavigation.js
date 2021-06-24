@@ -6,7 +6,7 @@ const MainNavigation = () => {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Let's Meet</div>
+      <div className={classes.logo}>Lets Meet</div>
       <nav>
         <ul>
           <li>
