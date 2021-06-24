@@ -1,10 +1,11 @@
 import classes from './MeetupDetail.module.css';
 import Image from 'next/image';
 
-
-const MeetupDetail = (props) => {
+function MeetupDetail(props) {
   return (
-    <section className={classes.detail}>
+    <section className={classes.detail} 
+    width={700} height={370}
+    >
       <Image
         src={props.image}
         alt={props.title}
@@ -14,6 +15,6 @@ const MeetupDetail = (props) => {
       <p>{props.description}</p>
     </section>
   );
-};
+}
 
 export default MeetupDetail;
